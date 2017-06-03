@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:background="#e9e9e9"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:padding="5dp">
+
+    <ScrollView
+        android:id="@+id/card_scrollview"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="true"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/umar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail17"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/glogo" />
+
+                    <TextView
+                        android:id="@+id/description17"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Umar Saidu"
+                        android:singleLine="true"
+                        android:textColor="#222"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/thumbnail17"
+                        android:layout_toEndOf="@+id/thumbnail17"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:id="@+id/title17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:text="GDG Minna Organizer"
+                        android:textColor="#222"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_below="@+id/description17"
+                        android:layout_toRightOf="@+id/thumbnail17"
+                        android:layout_toEndOf="@+id/thumbnail17" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/isaac"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail18"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/glogo" />
+
+                    <TextView
+                        android:id="@+id/description18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Isaac Marcus"
+                        android:textColor="#222"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/thumbnail18"
+                        android:layout_toEndOf="@+id/thumbnail18"
+                        android:layout_marginTop="23dp" />
+
+                    <TextView
+                        android:id="@+id/title18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        android:text="GDG Minna Co-Organizer\n\n"
+                        android:textColor="#222"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_below="@+id/description18"
+                        android:layout_toRightOf="@+id/thumbnail18"
+                        android:layout_toEndOf="@+id/thumbnail18" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/gbemileke"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                cardview:cardUseCompatPadding="true"
+                android:layout_gravity="center_horizontal"
+                cardview:cardElevation="4dp"
+                cardview:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/glogo" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Women Techmaker Lead"
+                        android:singleLine="true"
+                        android:textColor="#222"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_below="@+id/description"
+                        android:layout_alignLeft="@+id/description"
+                        android:layout_alignStart="@+id/description" />
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textIsSelectable="true"
+                        android:text="Gbemileke Anthony"
+                        android:textColor="#222"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginTop="19dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/thumbnail"
+                        android:layout_toEndOf="@+id/thumbnail" />
+
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

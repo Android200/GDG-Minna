@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+     <item android:id="@+id/rate"
+        android:title="Rate us"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+         android:icon="@drawable/ic_star_black_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/share"
+        android:title="Share"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/teams"
+        android:title="Teams"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/website"
+        android:title="Website"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/disclaimer"
+        android:title="Disclaimer"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/location"
+        android:title="Location"
+        app:showAsAction="never"
+        />
+</menu>

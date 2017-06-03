@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/gdghome"
+            android:icon="@drawable/home"
+            android:title="Home GDG" />
+        <item android:id="@+id/wtminna"
+            android:icon="@drawable/wtm"
+            android:title="WTM Minna" />
+        <item android:id="@+id/event"
+            android:icon="@drawable/events"
+            android:title="Events" />
+
+    </group>
+
+    <item android:title="Details"
+          android:checkableBehavior="single">
+        <menu>
+            <item android:id="@+id/organizers"
+                android:icon="@drawable/organizers"
+                android:title="Organizers" />
+            <item android:id="@+id/contactus"
+                android:icon="@drawable/social_media"
+                android:title="Social Media Platform" />
+        </menu>
+    </item>
+
+    <item android:title="Join Us"
+          android:checkableBehavior="single">
+        <menu>
+            <item android:id="@+id/sponsors"
+                android:icon="@drawable/sponsor"
+                android:title="Sponsors" />
+            <item android:id="@+id/register"
+                android:icon="@drawable/register"
+                android:title="Register" />
+            <item android:id="@+id/forum"
+                android:icon="@drawable/forum"
+                android:title="Mailing List" />
+        </menu>
+    </item>
+
+</menu>

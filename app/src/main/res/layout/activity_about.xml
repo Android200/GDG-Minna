@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.gdg.gdgminna.ABOUT">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="1dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/linearLayout2">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gdgmx"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2" />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/message"
+        android:id="@+id/textView11"
+        android:textColor="#363636"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignStart="@+id/linearLayout3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contributors"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/linearLayout3"
+        android:layout_alignStart="@+id/linearLayout3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Umar Saidu Auna - GDG Minna"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/textView2"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignStart="@+id/linearLayout3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Isaac Marcus - GDG Minna"
+            android:layout_gravity="center"
+            android:id="@+id/textView3"
+            android:layout_marginBottom="5dp"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignStart="@+id/linearLayout3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_gravity="center"
+            android:text="Zayyad Sani - GDG Minna"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/textView4"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignStart="@+id/linearLayout3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_gravity="center"
+            android:text="Auwal Muhammad Samu - GDG Lafia"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/textView6"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignStart="@+id/linearLayout3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/linearLayout3"
+        android:layout_alignEnd="@+id/linearLayout3">
+        <ImageView
+            android:onClick="calendar"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:src="@drawable/calendar"/>
+        <ImageView
+            android:onClick="maps"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/maps"/>
+        <ImageView
+            android:onClick="youtube"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/youtube"/>
+        <ImageView
+            android:onClick="uiux"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/uiux"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:id="@+id/linearLayout3">
+        <ImageView
+            android:onClick="androidstudio"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:src="@drawable/adroidstudio"/>
+        <ImageView
+            android:onClick="android"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/android"/>
+        <ImageView
+            android:onClick="playstore"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/playstore"/>
+        <ImageView
+            android:onClick="chrome"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/chrome"/>
+    </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

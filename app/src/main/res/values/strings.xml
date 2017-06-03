@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">GDG Minna</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_umar">Umar Saidu Auna</string>
+
+    <string name="disclaimer">
+    GDG Minna is an Independent Group; Our Activities and the Opinions Expressed on this App Should in no way be Linked to Google, The Corporation.
+    </string>
+
+    <string name="disclaimer1">
+    Visit the GDG page on Google Developers website. If you have any questions, visit the support page. You can also follow our Youtube channel.
+    </string>
+
+    <string name="disclaimer2">
+   Visit the directory to see if there\'s a local meetup in your area. Feel free to contact the organizers to find out more.
+        Fill this form if interested:
+    </string>
+
+    <string name="disclaimer3">
+  The GDG is an initiative formed out of passion and good will. However, the long-term benefits are many.\n
+    </string>
+
+    <string name="disclaimer4">
+        If you love internet technologies and enjoy exploring them with others, you’ll love being involved in a chapter or even being its founder. You’ll be able to bring together great speakers and like-minded audience and do things together that YOU personally like to do, but on a larger scale and with your direct influence on what that will be. While you could of course do this yourself anytime, the association with GDG brings you personally closer to the Google world, helps you in promoting and running your events and will let you get inspiration from more than 500 other GDG organizers around the world. You will also learn a lot yourself - from organizing and leading people, through running events to growing your technical knowledge. The GDG leadership position isn’t paid, but it lets you get a lot of other benefits.
+    </string>
+
+    <string name="disclaimer5">
+        GDG Organizers <b>are not</b> Googlers(Working with Google). Google Sponsor GDGs Events.
+    </string>
+
+    <string name="disclaimer6">
+        Leaders (chapter leaders, project organizers, country coordinators, etc.) are by far the key people in communities, who influence everything - other organizers, culture, activities. Leaders and organizers are capable technical, people-wise and organization wise. An organizer is responsible for:\n\n
+        1. Networking with people.\n\n
+        2. Event production.\n\n
+        3. Inspiring people to do stuff.\n\n
+        4. Leading people to make a decision.\n\n
+        5. Offering things to do.
+    </string>
+
+    <string name="disclaimer7">
+        Women Techmakers is Google\'s brand and global program for women in technology. It aims at providing visibility, community, and resources for women in technology to drive innovation and participation in the field.\n\n
+
+        WTM provides opportunities to develop industry needed skillsets, aid career development, and support women to become industry leaders in all phases of their careers apart from creating a supportive global community in which women can connect, be inspired, and encourage each other to realize their passions.
+
+    </string>
+
+    <string name="message">
+        GDG Minna app is designed specifically for Developers, Programmers and Designers so as to bring them together to do cool things that matters :) and lastly when Developers come together amazing things can happen.
+    </string>
+    <string name="isaacprofile">
+        \nIsaac Marcus is the Community Manager at Google Developer Group Minna. Isaac is a Programmer who is into JAVA Programming and hopes to make more exploit in Android Develpoment and Google Clouds. He has been involved in organizing series of Google events within Minna. His contact information and social media accounts are made available, feel free to contacts him or any other Organizer in case you are have questions regarding the community.
+    </string>
+
+    <string name="isaacqoute">
+        \nPrograms must be written for people to read and only incidentally for machines to execute.
+        (Harold Abelson)
+    </string>
+    <string name="umarprofile">
+       "\nUmar Saidu is an Android Developer and Android"
+        "Programming has been his passion since he compiled"
+        " his first hello-world program. He is the Program"
+        " Manager for GDG Minna. He loves organizing,"
+        " attending and participating in technology related"
+        " events. He loves reading and coding."
+    </string>
+
+    <string name="umarqoute">
+        \nMost Good Programmers do Programming not Beacuse they Expect to get Paid or get Adulation by the Public, but Beacuse it is Fun to Program.
+        (Linus Torvalds)
+    </string>
+
+    <string name="gbemilekeprofile">
+        \nGbemileke Anthony is a Passionate IT Enthusiasts. She loves participating in technology related events. She is the Women Techmaker Lead for GDG Minna. Love of words and the effects that words have. I am passionate about technology and what it does and will do for us tomorrow.
+    </string>
+
+    <string name="gbemilekeqoute">
+        \nTrust in yourself, believe that your voice matters, and know that your words are good enough.
+        (Amber Gordon)
+    </string>
+    <string name="title_activity_isaac">Isaac Marcus</string>
+    <string name="title_activity_gbemileke">Gbemileke Anthony</string>
+    <string name="title_activity_location">Location</string>
+</resources>

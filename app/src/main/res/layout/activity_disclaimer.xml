@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:background="#e9e9e9"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gdg.gdgminna.DISCLAIMER">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gdgmx"
+            android:paddingBottom="10dp"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        cardview:cardUseCompatPadding="true"
+        android:layout_gravity="center_horizontal"
+        cardview:cardElevation="4dp"
+        cardview:cardCornerRadius="5dp"
+        android:layout_below="@+id/linearLayout2">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="top"
+            android:background="@drawable/banner"
+            android:orientation="vertical"
+            android:padding="8dp"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#454545"
+                android:textSize="20sp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="29sp"
+                android:textStyle="bold"
+                android:text="Disclaimer"
+                android:gravity="center"
+                android:id="@+id/textView1"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10sp"
+                android:textIsSelectable="true"
+                android:text="@string/disclaimer"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            cardview:cardUseCompatPadding="true"
+            android:layout_gravity="center_horizontal"
+            cardview:cardElevation="4dp"
+            cardview:cardCornerRadius="5dp"
+            android:layout_below="@+id/linearLayout2">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:gravity="top"
+                android:background="@drawable/banner"
+                android:orientation="vertical"
+                android:padding="8dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="20sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginTop="29sp"
+                    android:textStyle="bold"
+                    android:text="F.A.Q"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:text="Where can I learn more about GDG?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:text="@string/disclaimer1"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:text="How do I join a GDG?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:text="@string/disclaimer2"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:id="@+id/gdgminna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:textIsSelectable="true"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="italic"
+                    android:text="GDG Minna"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:text="What are the benefits of joining a GDG?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:text="@string/disclaimer3"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:textIsSelectable="true"
+                    android:text="1. Learn about interesting technologies."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textIsSelectable="true"
+                    android:text="2. Connect with other developers in the region."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textIsSelectable="true"
+                    android:text="3. Offers a platform to discuss and share, through talks, seminars, etc."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textIsSelectable="true"
+                    android:text="4. Be recognised in the developer community."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textIsSelectable="true"
+                    android:text="5. Mentorship opportunities from senior developers in the community."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textIsSelectable="true"
+                    android:text="6. Network with Google’s speakers during events."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textIsSelectable="true"
+                    android:text="7. Does not consume much time."
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:text="What are the benefits of organizing a GDG?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/disclaimer4"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:text="Are GDG Organizer Working With Google?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:text="@string/disclaimer5"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:text="What are Organizers' Responsibilities?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:text="@string/disclaimer6"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#454545"
+                    android:textSize="16sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:text="What About Women Techmakers?"
+                    android:gravity="left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10sp"
+                    android:textIsSelectable="true"
+                    android:text="@string/disclaimer7"
+                    android:layout_gravity="center_horizontal"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>
